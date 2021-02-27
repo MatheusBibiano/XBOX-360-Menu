@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "NotoSans";
+  src: url("fonts/NotoSans-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "NotoSans", sans-serif;
+  background-repeat: no-repeat;
+  cursor: default;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color: transparent;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #535353, #bdbdbd);
+}
+
+header {
+  width: 100%;
+  height: 30%;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #fff;
+}
+
+span {
+  padding: 5px 0px 5px 10px;
+}
+
+#username {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 2%;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+}
+
+#user-photo {
+  background-color: #1d9e1d;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), -1px -1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#profile {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+nav {
+  padding-top: 3%;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+  color: #bebebe;
+}
+
+#left-container {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  border: solid;
+}
+
+#center-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#right-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.square-left {
+  /* height: 150px;
+  width: 200px; */
+  width: 100%;
+  height: 33.3%;
+  background-color: #008000;
+  /* margin: 2px; */
+  /* margin: 1%; */
+  display: flex;
+  align-items: flex-end;
+  font-size: 2rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.144);
+}
+
+.master-square {
+  height: 304px;
+  width: 504px;
+  background-color: #008000;
+  margin: 2px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.144);
+  display: flex;
+  align-items: flex-end;
+}
+
+.sub-center-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.square-center {
+  height: 150px;
+  width: 250px;
+  background-color: #008000;
+  margin: 2px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.144);
+  display: flex;
+  align-items: flex-end;
+}
+
+.square-right {
+  height: 150px;
+  width: 200px;
+  background-color: #008000;
+  margin: 2px;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.144);
+}
+
+.add-span {
+  padding: 5px 0px 5px 10px;
+  background-color: rgba(0, 0, 0, 0.534);
+  font-size: 130%;
+  width: inherit;
+}
