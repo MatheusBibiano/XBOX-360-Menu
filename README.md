@@ -2,7 +2,7 @@
 
 ### Sobre
 
-Este projeto foi desenvolvido com a finalidade de aprimorar minhas habilidades em HTML5 e CSS3. O layout possuí apenas uma parte do menu de um Xbox 360.
+Este projeto foi desenvolvido com a finalidade de aprimorar minhas habilidades em HTML5 e CSS3. O layout possui apenas uma parte do menu de um Xbox 360.
 
 <img src="assets/print.png"/>
 
